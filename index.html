@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!-- First Page -->
+    <!-- Navbar -->
+     <div class="navbar">
+        <div class="nav-title">
+            <h1>Surya Kamaraj</h1>
+        </div>
+        <div class="nav-data">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </div>
+        <div class="ham-icon" onclick="topen()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-icon" onclick="topen()">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+     </div>
+     <!-- Hmaburger -->
+      <div class="h-nav-data">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+            </ul>
+      </div>
+
+    <!--profile-->
+    <div id="profile">
+        <div class="img-cont">
+            <img src="assets/profile_pic.jpg" alt="profile-img">
+        </div>
+        <div class="info-cont">
+            <div class="content">
+                <p>Hello,I'm</p>
+                <h1>Surya Kamaraj</h1>
+                <h2>Fresher | Developer</h2>
+            </div>
+            <div class="btn-sec">
+                <button class="cv" onclick="window.open('assets/Final_Resume.pdf')">Download cv</button>
+                <button class="contact"><a href="#contacts">Contact us</a></button>
+            </div>
+            <div class="social-cont">
+                <div class="git">
+                    <a href="https://github.com/Suryaa11"><img src="assets/github.png" alt="git-icon"></a>
+                </div>
+                <div class="linkedin">
+                    <a href=""><img src="assets/linkedin.png" alt="linkedin-icon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="arrow">
+        <a href="#about"><img src="assets/arrow.png" alt="arrow-icon"></a>
+    </div>
+    <!-- First page end -->
+    <!-- About section -->
+    <div id="about">
+        <div class="headers">
+            <p>Get to know more</p>
+            <h1>About me</h1>
+        </div>
+        <div class="about-cont">
+            <div class="about-pic-cont">
+                <img src="assets/profile-avatar.webp" alt="">
+            </div>
+            <div class="about-data">
+                <div class="exp">
+                    <img src="assets/experience.png" alt="experience-tag">
+                    <h3>Experience</h3>
+                    <p>Fresher in Frontend Development</p>
+                </div>
+                <div class="edu">
+                    <img src="assets/education.png" alt="education-tag">
+                    <h3>Education</h3>
+                    <p>B.E-Electronics & Communication Engineering</p>
+                </div>
+                <div class="desc">
+                    <p>Electronics and Communication Engineering graduate and aspiring Developer with strong skills in Python, Java, SQL, and Frontend technologies. Passionate about building scalable web applications, mastering DSA, and applying OOP principles to real-world projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="arrow">
+        <a href="#experience"><img src="assets/arrow.png" alt="arrow-icon"></a>
+    </div>
+    <!-- About sectio end -->
+    <!-- experience section -->
+    <div id="experience">
+        <div class="headers">
+            <p>Explore My</p>
+            <h1>Experience</h1>
+        </div>
+        <div class="exp-box">
+            <div class="box1">
+                <div class="box-head">
+                    <h1>Frontend Development</h1>
+                </div>
+                <div class="box-data">
+                    <div class="box-cont box-cont1">
+                        <div class="badge">
+                            <img src="assets/checkmark.png" alt="checkmark-icon">
+                        </div>
+                        <div class="box-content">
+                            <h2>HTML</h2>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="box-cont box-cont2">
+                        <div class="badge">
+                            <img src="assets/checkmark.png" alt="checkmark-icon">
+                        </div>
+                        <div class="box-content">
+                            <h2>CSS</h2>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="box-cont box-cont3">
+                        <div class="badge">
+                            <img src="assets/checkmark.png" alt="checkmark-icon">
+                        </div>
+                        <div class="box-content">
+                            <h2>Javascript</h2>
+                            <p>Beginner</p>
+                        </div>
+                    </div>
+                    <div class="box-cont box-cont4">
+                        <div class="badge">
+                            <img src="assets/checkmark.png" alt="checkmark-icon">
+                        </div>
+                        <div class="box-content">
+                            <h2>Git[Version Control]</h2>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="box-head">
+                    <h1>Technical Skills</h1>
+                </div>
+                <div class="box-data">
+                    <div class="box-cont box-cont1">
+                        <div class="badge">
+                            <img src="assets/checkmark.png" alt="checkmark-icon">
+                        </div>
+                        <div class="box-content">
+                            <h2>Python</h2>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="box-cont box-cont2">
+                        <div class="badge">
+                            <img src="assets/checkmark.png" alt="checkmark-icon">
+                        </div>
+                        <div class="box-content">
+                            <h2>Java</h2>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="box-cont box-cont3">
+                        <div class="badge">
+                            <img src="assets/checkmark.png" alt="checkmark-icon">
+                        </div>
+                        <div class="box-content">
+                            <h2>SQL</h2>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="arrow">
+        <a href="#projects"><img src="assets/arrow.png" alt="arrow-icon"></a>
+    </div>
+    <div id="projects">
+        <div class="headers">
+            <p>Browse my recent</p>
+            <h1>Projects</h1>
+        </div>
+        <div class="project-main-box">
+            <div class="project-1">
+                <img src="assets/project-6.png" alt="project-1-pic">
+                <h1>Project One</h1>
+                <div class="resources">
+                    <a href="">Github</a>
+                    <a href="">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-2">
+                <img src="assets/project-5.png" alt="project-2-pic">
+                <h1>Project Two</h1>
+                <div class="resources">
+                    <a href="">Github</a>
+                    <a href="">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-3">
+                <img src="assets/project-4.png" alt="project-3-pic">
+                <h1>Project Three</h1>
+                <div class="resources">
+                    <a href="">Github</a>
+                    <a href="">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="arrow">
+        <a href="#contacts"><img src="assets/arrow.png" alt="arrow-icon"></a>
+    </div>
+    <div id="contacts">
+        <div class="headers">
+            <p>Get in Touch</p>
+            <h1>Contact Me</h1>
+        </div>
+        <div class="contact-info">
+            <div class="contact-border">
+                <div class="mail">
+                    <img src="assets/email.png" alt="mail-icon">
+                    <h4><a href="mailto:ksurya112003@gmail.com">Email</a></h4>
+                </div>
+                <div class="linkedin">
+                    <img src="assets/linkedin.png" alt="linkedin-icon">
+                    <h4><a href="">Linkedin</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="top-f">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contact</a>
+        </div>
+        <div class="bottom-f">
+            <p>Copyright © 2025 Surya Kamaraj. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
